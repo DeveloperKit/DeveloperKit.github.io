@@ -1,8 +1,0 @@
-<?DOCTYPE html>
-<head>
-	<title>DeveloperKit</title>
-</head>
-<body>
-Hello World!
-</body>
-</html>
