@@ -3,9 +3,10 @@ $(document).ready(function(){
 	var diyList = [{
 		name:'',
 		type: 'diy',
-		instructions: ["type(...) for different types"]
+		instructions: ["IN CONSOLE: type(...) for different types"]
 	},{
 		name: '',
+		type: 'diy',
 		instructions: ["Set your name to a variable called ‘name’",
 		"Use that variable in a variable called ‘message’ and print it",
 		"Change ‘name’",
@@ -16,7 +17,8 @@ $(document).ready(function(){
 		instructions: ["Solve a math problem for x"]
 	},{
 		name: '',
-		instructions: ["Import ‘math’",
+		type: 'diy',
+		instructions: ["IN FILE: Import ‘math’",
 		"Find length of hypotenuse",
 		"Find length of triangle side using Math Module",
 		"Find length of triangle side without using Math Module",
@@ -30,7 +32,27 @@ $(document).ready(function(){
 		instructions: ["Transfer previous statements from Math DIY to functions with parameters - some  return , some don’t",
 		"Run multiple instances with different arguments",
 		"Do some arithmetic in your in your main function - notice that you can do arithmetic on functions that return a value, but you cannot make arithmetic on functions that do not return a value or just print it."]
+	},{
+		name:'',
+		type: 'diy',
+		instructions: ["They will get a short program with an example of at least one of each error",
+		"Recommended to copy and run for breaking sake",
+		"Debug it"]
+	},{
+		name:'',
+		type: 'challenge',
+		instructions: ["Write a function called box_me",
+		"Takes in a string",
+		"Builds a box around it",
+		"Box needs to adjust automatically according to the string's length"]
 	}];
+	/*
+	,{
+		name:'',
+		type: 'diy',
+		instructions: []
+	}
+	*/
 
 	//Add the DIY and Challenges
 	var diyCount = 1
