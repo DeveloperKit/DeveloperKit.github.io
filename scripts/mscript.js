@@ -50,14 +50,12 @@ $(document).ready(function(){
 		name:'',
 		type: 'diy',
 		instructions: ["Write a function that takes in a random number",
-"Determines if the last digit is 0 or 5",
-"Hint: Use % (Modulo Operator)"
+"Determines if the last digit is 0 or 5 <br> Hint: Use % (Modulo Operator)"
 ]
 	},{
 		name:'',
 		type: 'diy',
-		instructions: ["Make a rocket count up and shoot off the rocket when it hits 0",
-"Extra: use time.sleep(1)"
+		instructions: ["Make a rocket count up and shoot off the rocket when it hits 0 <br> Extra: use time.sleep(1)"
 ]
 	},{
 		name:'',
@@ -157,7 +155,7 @@ $(document).ready(function(){
 		name:'',
 		type: 'diy',
 		instructions: ["You will be scraping an entire book from Project Gutenberg (legal)", 
-"Scrape the following URL: <br> http://www.gutenberg.org/cache/epub/1184/pg1184.txt",
+"Scrape the following URL: <br><a href = http://www.gutenberg.org/cache/epub/1184/pg1184.txt> http://www.gutenberg.org/cache/epub/1184/pg1184.txt </a>",
 "Make a histogram of word count <br> a) Hint: Save the text to a file, read one line at a time <br> b) To think about: How to deal with \n and grammar"]
 	},{
 		name:'',
