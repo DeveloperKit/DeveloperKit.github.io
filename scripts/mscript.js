@@ -175,8 +175,6 @@ $(document).ready(function(){
 
 	];
 
-"<p><i><strong>© 2015 Jimmy Gozal & Kai Austin - All Rights Reserved</strong></i></p>"
-
 	/*
 	,{
 		name:'',
