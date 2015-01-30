@@ -152,7 +152,7 @@ $(document).ready(function(){
 		name:'',
 		type: 'diy',
 		instructions: ["Download and install Pattern <br> git clone https://github.com/clips/pattern <br> cd pattern <br> python setup.py install",
-"Check everything is installed correctly <br> >>> from pattern.web import *<br> >>> print URL('http://google.com').download()]",
+"Check everything is installed correctly <br> >>> from pattern.web import *<br> >>> print URL('http://google.com').download()"],
 	},
 
 	];
