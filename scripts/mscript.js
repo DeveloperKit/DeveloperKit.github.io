@@ -3,41 +3,42 @@ $(document).ready(function(){
 	var diyList = [{
 		name:'',
 		type: 'diy',
-		instructions: ["IN CONSOLE: type(...) for different types"]
+		instructions: ["In console: enter type() for different types of values."]
 	},{
 		name: '',
 		type: 'diy',
 		instructions: ["Set your name to a variable called ‘name’",
-		"Use that variable in a variable called ‘message’ and print it",
-		"Change ‘name’",
-		"Reprint ‘message’"]
+"Create a new variable called ‘message’ in which you put in a message together with the previously created variable ‘name’",
+"Print it",
+"Change ‘name’",
+"Reprint ‘message’",
+]
 	},{
 		name: '',
 		type: 'diy',
-		instructions: ["Solve a math problem for x"]
+		instructions: ["The volume of a sphere with radius r is 4⁄3 πr³. What is the volume of a sphere with radius 5? Hint: 392.7 is wrong!"]
 	},{
 		name: '',
 		type: 'diy',
-		instructions: ["IN FILE: Import ‘math’",
-		"Find length of hypotenuse",
-		"Find length of triangle side using Math Module",
-		"Find length of triangle side without using Math Module",
-		"Print last length as a string",
-		"Print the length of that string",
-		"Comments!",
-		"Run file"]
+		instructions: ["Import ‘math’",
+"Find length of hypotenuse using math module",
+"Find length of hypotenuse without using math module",
+"Print last length as a string",
+"Print the length of that string",
+"Comments!",
+"Run file"
+]
 	},{
 		name: '',
 		type: 'diy',
-		instructions: ["Transfer previous statements from Math DIY to functions with parameters - some  return , some don’t",
-		"Run multiple instances with different arguments",
-		"Do some arithmetic in your in your main function - notice that you can do arithmetic on functions that return a value, but you cannot make arithmetic on functions that do not return a value or just print it."]
+		instructions: ["Transfer statements from previous DIY to your functions using parameters; some  return and some don’t.",
+"Call multiple functions with different arguments.",
+"Do some arithmetic on your function calls – what do you notice?"
+]
 	},{
 		name:'',
 		type: 'diy',
-		instructions: ["They will get a short program with an example of at least one of each error",
-		"Recommended to copy and run for breaking sake",
-		"Debug it"]
+		instructions: ["Error Script I need to make some day"]
 	},{
 		name:'',
 		type: 'challenge',
@@ -45,7 +46,76 @@ $(document).ready(function(){
 		"Takes in a string",
 		"Builds a box around it",
 		"Box needs to adjust automatically according to the string's length"]
-	}];
+	},{
+		name:'',
+		type: 'diy',
+		instructions: ["Write a function that takes in a random number",
+"Determines if the last digit is 0 or 5",
+"Hint: Use % (Modulo Operator)"
+]
+	},{
+		name:'',
+		type: 'diy',
+		instructions: ["Make a rocket count up and shoot off the rocket when it hits 0",
+"Extra: use time.sleep(1)"
+]
+	},{
+		name:'',
+		type: 'diy',
+		instructions: ["Make a function called no_hugs that takes in a string",
+"Each iteration of the loop, the string moves further away from hug to the other side of the room (50 spaces wide total)"
+]
+	},{
+		name:'',
+		type: 'diy',
+		instructions: ["Make a function called to_words which takes in an int",
+"Converts int to string",
+"For each number in the string, convert to a word (language of choice)"
+]
+	},{
+		name:'',
+		type: 'diy',
+		instructions: ["Make a list of strings called ‘bag’ with 5 food items",
+"Make a function called add_item that takes a string called ‘food’ and a list of strings called ‘bag’",
+"But wait! Be sure your bag is not too full. If there are 6 items or more, remove the last item and print the item.",
+"Add the new item ‘food’",
+"Sort the list",
+"Return the new list"
+]
+	},{
+		name:'',
+		type: 'diy',
+		instructions: ["Make a  function called remove_punc",
+"Takes in a string",
+"Returns without any punctuation"
+]
+	},{
+		name:'',
+		type: 'diy',
+		instructions: ["Make a function called compact_tuples that takes in a list of tuples in the form: (string, int)",
+"Merge all the strings",
+"Add all the ints",
+"Return the two as a new tuple"]
+	},{
+		name:'',
+		type: 'diy',
+		instructions: ["Make a function called e_count that takes in a string",
+"Separate the string into a histogram of letters",
+"Print out how many times ‘e’ is used if any"
+]
+	},{
+		name:'',
+		type: 'challenge',
+		instructions: ["Make a function called pack_zoo_animals that takes in a list of tuples and returns a dictionary",
+"Tuples are in the form of (string1, string2) where string1 = animal type (example: bird, cat, canine, etc), string2 = species (example: tiger, lion, falcon, etc.)",
+"Returned dictionary must be of form { ‘string1’: { ‘string2’ : (number of string2) } }",
+"Make a function called report_animals that takes in the above dictionary and prints it to the console in a readable form",
+"Make a function called unpack_zoo_animals that takes in the above dictionary and converts back to a list of tuples"
+
+]
+	}
+
+	];
 	/*
 	,{
 		name:'',
