@@ -141,26 +141,10 @@ $(document).ready(function(){
 		instructions: [
 "Card Game time!",
 "Make four classes: ‘Game’, ‘Deck’, ‘Card’, and ‘Player’",
-"A Card must: \n
-a) Have a suit \n
-b) Have a rank \n
-c) Have a method to tell you what that suit and rank is",
-"The Deck must: \n
-a) Initially contain all cards \n
-b) Have a method to add cards \n
-c) Have a method to remove cards \n
-d) Have a method to shuffle" ,
-"The Player must: \n
-a) Have a hand and a name \n
-b) The hand must initially contain no cards \n
-c) Have a method to add cards \n
-d) Have a method to remove a random card and a given card \n
-e) Have a method to see what cards are in the hand",
-"The Game must: \n
-a) Have one deck and up to 4 players (number decided upon initialization) \n
-b) Have a method called deal which transfers x amount of cards from the deck to each player (you might want a parameter to specify what x is) \n
-c) Have a way for the user to specify what x is \n
-d) Print the player’s name and the number of cards distributed to each player to a file",
+"A Card must: <br> a) Have a suit <br> b) Have a rank <br> c) Have a method to tell you what that suit and rank is",
+"The Deck must: <br> a) Initially contain all cards <br> b) Have a method to add cards <br> c) Have a method to remove cards <br> d) Have a method to shuffle" ,
+"The Player must: <br> a) Have a hand and a name <br> b) The hand must initially contain no cards <br> c) Have a method to add cards <br> d) Have a method to remove a random card and a given card <br> e) Have a method to see what cards are in the hand",
+"The Game must: <br> a) Have one deck and up to 4 players (number decided upon initialization) <br> b) Have a method called deal which transfers x amount of cards from the deck to each player (you might want a parameter to specify what x is) <br> c) Have a way for the user to specify what x is <br> d) Print the player’s name and the number of cards distributed to each player to a file",
 "Get creative. What can you do next?"
 
 ]
