@@ -156,7 +156,7 @@ $(document).ready(function(){
 		type: 'diy',
 		instructions: ["You will be scraping an entire book from Project Gutenberg (legal)", 
 "Scrape the following URL: <br><a href = http://www.gutenberg.org/cache/epub/1184/pg1184.txt> http://www.gutenberg.org/cache/epub/1184/pg1184.txt </a>",
-"Make a histogram of word count <br> a) Hint: Save the text to a file, read one line at a time <br> b) To think about: How to deal with \\n\ and grammar"]
+"Make a histogram of word count <br> a) Hint: Save the text to a file, read one line at a time <br> b) To think about: How to deal with \n and grammar"]
 	},{
 		name:'',
 		type: 'diy',
