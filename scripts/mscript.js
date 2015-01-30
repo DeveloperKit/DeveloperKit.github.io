@@ -162,13 +162,13 @@ $(document).ready(function(){
 	},{
 		name:'',
 		type: 'diy',
-		instructions: ["Go to the following url: <br> http://www.clips.ua.ac.be/pages/pattern-web#twitter",
+		instructions: ["Go to the following url: <br> <a href=http://www.clips.ua.ac.be/pages/pattern-web#twitter> http://www.clips.ua.ac.be/pages/pattern-web#twitter</a>" ,
 "Search for ‘happiness’, stream ‘#netflix’, and check out the current trends on Twitter <br> Note: If you get a Unicode error - <br> Change tweet.text to tweet.text.encode(‘ascii’, ‘ignore’)"]
 	},{
 		name:'',
 		type: 'challenge',
 		instructions: ["It’s the End of the World! But you don’t know how the world is ending. Thankfully people on Twitter might.",
-"Search for different disasters on Twitter related to the apocalypse (eg: #isis, #zombies, #samanddean, #mayanswereright) in the past hour <br> Hint: look at the tweet object, notice that is has a date timestamp which can be used to determine when the tweet was made",
+"Search for different disasters on Twitter related to the apocalypse (eg: #isis, #zombies, #samanddean, #mayanswereright) in the past hour. <br> Hint: look at the tweet object, notice that is has a date timestamp which can be used to determine when the tweet was made",
 "Track their frequency and determine the most frequent",
 "Panic."
 ]
