@@ -171,7 +171,7 @@ $(document).ready(function(){
 "Search for different disasters on Twitter related to the apocalypse (eg: #isis, #zombies, #samanddean, #mayanswereright) in the past hour <br> Hint: look at the tweet object, notice that is has a date timestamp which can be used to determine when the tweet was made",
 "Track their frequency and determine the most frequent",
 "Panic."
-"]
+]
 	}
 
 
