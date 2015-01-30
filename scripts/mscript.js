@@ -152,8 +152,28 @@ $(document).ready(function(){
 		name:'',
 		type: 'diy',
 		instructions: ["Download and install Pattern <br> git clone https://github.com/clips/pattern <br> cd pattern <br> python setup.py install",
-"Check everything is installed correctly <br> >>> from pattern.web import *<br> >>> print URL('http://google.com').download()"],
-	},
+"Check everything is installed correctly <br> >>> from pattern.web import *<br> >>> print URL('http://google.com').download()"]
+	},{
+		name:'',
+		type: 'diy',
+		instructions: ["You will be scraping an entire book from Project Gutenberg (legal)", 
+"Scrape the following URL: <br> http://www.gutenberg.org/cache/epub/1184/pg1184.txt",
+"Make a histogram of word count <br> a) Hint: Save the text to a file, read one line at a time <br> b) To think about: How to deal with \n and grammar"]
+	},{
+		name:'',
+		type: 'diy',
+		instructions: ["Go to the following url: <br> http://www.clips.ua.ac.be/pages/pattern-web#twitter",
+"Search for ‘happiness’, stream ‘#netflix’, and check out the current trends on Twitter <br> Note: If you get a Unicode error - <br> Change tweet.text to tweet.text.encode(‘ascii’, ‘ignore’)"]
+	},{
+		name:'',
+		type: 'challenge',
+		instructions: ["It’s the End of the World! But you don’t know how the world is ending. Thankfully people on Twitter might.",
+"Search for different disasters on Twitter related to the apocalypse (eg: #isis, #zombies, #samanddean, #mayanswereright) in the past hour <br> Hint: look at the tweet object, notice that is has a date timestamp which can be used to determine when the tweet was made",
+"Track their frequency and determine the most frequent",
+"Panic."
+"]
+	}
+
 
 	];
 	/*
