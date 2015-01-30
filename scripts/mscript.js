@@ -151,10 +151,13 @@ $(document).ready(function(){
 	},{
 		name:'',
 		type: 'diy',
-		instructions: ["Make a function called compact_tuples that takes in a list of tuples in the form: (string, int)",
-"Merge all the strings",
-"Add all the ints",
-"Return the two as a new tuple"]
+		instructions: ["Download and install Pattern <br>
+git clone https://github.com/clips/pattern <br>
+cd pattern <br>
+python setup.py install",
+"Check everything is installed correctly
+>>> from pattern.web import *<br>
+>>> print URL('http://google.com').download()]",
 	},
 
 	];
