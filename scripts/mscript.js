@@ -113,7 +113,65 @@ $(document).ready(function(){
 "Make a function called unpack_zoo_animals that takes in the above dictionary and converts back to a list of tuples"
 
 ]
-	}
+	},{
+		name:'',
+		type: 'diy',
+		instructions: ["Write a script with a while loop that does not terminate until the user types in ‘exit’"
+]
+	},{
+		name:'',
+		type: 'diy',
+		instructions: ["Make two .txt files",
+"Write something in one file",
+"Make a script (or function) to copy content from one file to another"
+]
+	},{
+		name:'',
+		type: 'diy',
+		instructions: ["Make a class called ‘Animal’",
+"Make a class called ‘Cat’ which inherits Animal",
+"‘Cat’ should have a color and a name",
+"Add a __str__ method which tells you about the Cat",
+"Add a method called ‘speak’ which has the cat say something to the console.",
+"Make a cat object",
+"Print information about the cat and have it speak"]
+	},{
+		name:'',
+		type: 'challenge',
+		instructions: [
+"Card Game time!",
+"Make four classes: ‘Game’, ‘Deck’, ‘Card’, and ‘Player’",
+"A Card must: \n
+a) Have a suit \n
+b) Have a rank \n
+c) Have a method to tell you what that suit and rank is",
+"The Deck must: \n
+a) Initially contain all cards \n
+b) Have a method to add cards \n
+c) Have a method to remove cards \n
+d) Have a method to shuffle" ,
+"The Player must: \n
+a) Have a hand and a name \n
+b) The hand must initially contain no cards \n
+c) Have a method to add cards \n
+d) Have a method to remove a random card and a given card \n
+e) Have a method to see what cards are in the hand",
+"The Game must: \n
+a) Have one deck and up to 4 players (number decided upon initialization) \n
+b) Have a method called deal which transfers x amount of cards from the deck to each player (you might want a parameter to specify what x is) \n
+c) Have a way for the user to specify what x is \n
+d) Print the player’s name and the number of cards distributed to each player to a file",
+"Get creative. What can you do next?"
+
+]
+	},{
+		name:'',
+		type: 'diy',
+		instructions: ["Make a function called compact_tuples that takes in a list of tuples in the form: (string, int)",
+"Merge all the strings",
+"Add all the ints",
+"Return the two as a new tuple"]
+	},
 
 	];
 	/*
