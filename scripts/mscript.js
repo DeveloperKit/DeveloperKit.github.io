@@ -37,10 +37,6 @@ $(document).ready(function(){
 ]
 	},{
 		name:'',
-		type: 'diy',
-		instructions: ["Error Script I need to make some day"]
-	},{
-		name:'',
 		type: 'challenge',
 		instructions: ["Write a function called box_me",
 		"Takes in a string",
@@ -110,6 +106,13 @@ $(document).ready(function(){
 "Make a function called report_animals that takes in the above dictionary and prints it to the console in a readable form",
 "Make a function called unpack_zoo_animals that takes in the above dictionary and converts back to a list of tuples"
 
+]
+	},{
+		name:'',
+		type: 'diy',
+		instructions: ["Go to www.developerkit.co/files/darkoutside.zip",
+"Extract file and run the script",
+"There is 1 syntax, 1 runtime, and 1 semantic error - debug the script!"
 ]
 	},{
 		name:'',
