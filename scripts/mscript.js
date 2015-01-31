@@ -110,7 +110,7 @@ $(document).ready(function(){
 	},{
 		name:'',
 		type: 'diy',
-		instructions: ["Go to <a href=www.developerkit.co/files/darkoutside.zip>www.developerkit.co/files/darkoutside.zip</a>",
+		instructions: ["Go to <a href=/files/darkoutside.zip>www.developerkit.co/files/darkoutside.zip</a>",
 "Extract file and run the script",
 "There is 1 syntax, 1 runtime, and 1 semantic error - debug the script!"
 ]
