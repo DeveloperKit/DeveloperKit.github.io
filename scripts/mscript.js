@@ -165,11 +165,12 @@ $(document).ready(function(){
 	},{
 		name:'',
 		type: 'challenge',
-		instructions: ["It’s the End of the World! But you don’t know how the world is ending. Thankfully people on Twitter might.",
-"Search for different disasters on Twitter related to the apocalypse (eg: #isis, #zombies, #samanddean, #mayanswereright) in the past hour. <br> Hint: look at the tweet object, notice that is has a date timestamp which can be used to determine when the tweet was made",
-"Track their frequency and determine the most frequent",
-"Panic."
-]
+		instructions: ["It’s the End of the World! But you don’t know how the world is ending. Thankfully, people on Twitter might.",
+		"Search for different disasters on Twitter related to the apocalypse (eg: #isis, #zombies, #samanddean, #mayanswereright)",
+		"Track their frequency of occurrences within the past hour (or 4) <br>Hint: look at the tweet object, notice that is has a date timestamp which can be used to determine when the tweet was made",
+		"Determine the most frequent",
+		"Print your emergency warning to the console",
+		"Panic."]
 	}
 
 
